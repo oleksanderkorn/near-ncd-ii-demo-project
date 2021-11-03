@@ -19,7 +19,7 @@ const App = ({ contract, currentUser, nearConfig, wallet }) => {
           <img
             className="h-12 w-24"
             src="https://docs.near.org/img/near_logo.svg"
-            alt="ChitChat Logo"
+            alt="NEAR Logo"
           />
           {currentUser ? (
             <button

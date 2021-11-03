@@ -22,7 +22,6 @@ const YatziGame = ({ contract }) => {
         setIsLoading(false);
       },
       (err) => {
-        // alert(err);
         setError(`${err}`);
         setIsLoading(false);
       }
@@ -48,7 +47,6 @@ const YatziGame = ({ contract }) => {
           setDice("");
         },
         (err) => {
-          // alert(err);
           setError(`${err}`);
           setIsLoading(false);
         }
@@ -62,7 +60,6 @@ const YatziGame = ({ contract }) => {
         setIsLoading(false);
       },
       (err) => {
-        // alert(err);
         setError(`${err}`);
         setIsLoading(false);
       }
